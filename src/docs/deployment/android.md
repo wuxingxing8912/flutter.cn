@@ -425,11 +425,11 @@ their own rules.
 
 Open the `/android/app/build.gradle` file and locate the `buildTypes`
 definition. Inside the `release` configuration section,
-set the `minifiyEnabled` and `useProguard` flags to true.
+set the `minifyEnabled` and `useProguard` flags to true.
 You must also point Proguard to the file you created in step 1:
 
 在 `/android/app/build.gradle` 文件找到 `buildTypes` 的定义。
-在 `release` 配置中设置 `minifiyEnabled` 和 `useProguard` 为 true。
+在 `release` 配置中设置 `minifyEnabled` 和 `useProguard` 为 true。
 另外我们必须再设置 Proguard 指向步骤 1 中我们创建的文件。
 
 
